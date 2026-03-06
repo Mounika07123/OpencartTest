@@ -9,6 +9,7 @@ export class Home {
     private readonly searchBoxtext: Locator
     private readonly searchclick: Locator
     private readonly productstitle : Locator;
+    private readonly login :Locator;
 
 
     //Constructors
@@ -21,7 +22,7 @@ export class Home {
         this.searchBoxtext = page.getByRole('textbox', { name: 'Search' });
         this.searchclick = page.locator('.btn.btn-default.btn-lg');
         this.productstitle = page.locator("h4 a")
-
+        this.login = page.locator('ul.dropdown-menu.dropdown-menu-right>li').nth(1)
     }
 
     //Async methods
@@ -60,6 +61,10 @@ export class Home {
 
         await this.Register.click();
 
+    }
+
+    async loginlink():Promise<void>{
+        await this.login.click();
     }
 
 }
