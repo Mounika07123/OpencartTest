@@ -19,6 +19,8 @@ test("Click on Registration link", async ({ page }) => {
     await home.Accountlink();
     await home.Registration();
     await regis.fillreg(randomutility.firstame(), randomutility.lastname(), randomutility.email(), randomutility.phone(), randomutility.password(), randomutility.password())
+    
+    
     //clcik on Checkbox
     await regis.checkbox();
     await regis.continue();
