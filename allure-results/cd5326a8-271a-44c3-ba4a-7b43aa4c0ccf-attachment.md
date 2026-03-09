@@ -1,0 +1,469 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - button "$ Currency " [ref=e7] [cursor=pointer]:
+        - strong [ref=e8]: $
+        - text: Currency
+        - generic [ref=e9]: 
+      - list [ref=e11]:
+        - listitem [ref=e12]:
+          - link "" [ref=e13] [cursor=pointer]:
+            - /url: https://naveenautomationlabs.com/opencart/index.php?route=information/contact
+            - generic [ref=e14]: 
+          - text: "123456789"
+        - listitem [ref=e15]:
+          - link " My Account" [ref=e16] [cursor=pointer]:
+            - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/account
+            - generic [ref=e17]: 
+            - text: My Account
+        - listitem [ref=e19]:
+          - link " Wish List (0)" [ref=e20] [cursor=pointer]:
+            - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/wishlist
+            - generic [ref=e21]: 
+            - text: Wish List (0)
+        - listitem [ref=e22]:
+          - link " Shopping Cart" [ref=e23] [cursor=pointer]:
+            - /url: https://naveenautomationlabs.com/opencart/index.php?route=checkout/cart
+            - generic [ref=e24]: 
+            - text: Shopping Cart
+        - listitem [ref=e25]:
+          - link " Checkout" [ref=e26] [cursor=pointer]:
+            - /url: https://naveenautomationlabs.com/opencart/index.php?route=checkout/checkout
+            - generic [ref=e27]: 
+            - text: Checkout
+  - banner [ref=e28]:
+    - generic [ref=e30]:
+      - link "naveenopencart" [ref=e33] [cursor=pointer]:
+        - /url: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+        - img "naveenopencart" [ref=e34]
+      - generic [ref=e36]:
+        - textbox "Search" [ref=e37]
+        - button "" [ref=e39] [cursor=pointer]:
+          - generic [ref=e40]: 
+      - button " 0 item(s) - $0.00" [ref=e43] [cursor=pointer]:
+        - generic [ref=e44]: 
+        - text: 0 item(s) - $0.00
+  - navigation [ref=e46]:
+    - generic: 
+    - list [ref=e48]:
+      - listitem [ref=e49]:
+        - link "Desktops" [ref=e50] [cursor=pointer]:
+          - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/category&path=20
+      - listitem [ref=e51]:
+        - link "Laptops & Notebooks" [ref=e52] [cursor=pointer]:
+          - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/category&path=18
+      - listitem [ref=e53]:
+        - link "Components" [ref=e54] [cursor=pointer]:
+          - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/category&path=25
+      - listitem [ref=e55]:
+        - link "Tablets" [ref=e56] [cursor=pointer]:
+          - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/category&path=57
+      - listitem [ref=e57]:
+        - link "Software" [ref=e58] [cursor=pointer]:
+          - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/category&path=17
+      - listitem [ref=e59]:
+        - link "Phones & PDAs" [ref=e60] [cursor=pointer]:
+          - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/category&path=24
+      - listitem [ref=e61]:
+        - link "Cameras" [ref=e62] [cursor=pointer]:
+          - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/category&path=33
+      - listitem [ref=e63]:
+        - link "MP3 Players" [ref=e64] [cursor=pointer]:
+          - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/category&path=34
+  - generic [ref=e65]:
+    - list [ref=e66]:
+      - listitem [ref=e67]:
+        - link "" [ref=e68] [cursor=pointer]:
+          - /url: https://naveenautomationlabs.com/opencart/index.php?route=common/home
+          - generic [ref=e69]: 
+      - listitem [ref=e70]:
+        - link "Components" [ref=e71] [cursor=pointer]:
+          - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/category&path=25
+      - listitem [ref=e72]:
+        - link "Monitors" [ref=e73] [cursor=pointer]:
+          - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/category&path=25_28
+      - listitem [ref=e74]:
+        - link "Apple Cinema 30\"" [ref=e75] [cursor=pointer]:
+          - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/product&path=25_28&product_id=42
+    - generic [ref=e77]:
+      - generic [ref=e78]:
+        - generic [ref=e79]:
+          - list [ref=e80]:
+            - listitem [ref=e81]:
+              - link "Apple Cinema 30\"" [ref=e82] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/image/cache/catalog/demo/apple_cinema_30-500x500.jpg
+                - img "Apple Cinema 30\"" [ref=e83]
+            - listitem [ref=e84]:
+              - link "Apple Cinema 30\"" [ref=e85] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/image/cache/catalog/demo/canon_eos_5d_2-500x500.jpg
+                - img "Apple Cinema 30\"" [ref=e86]
+            - listitem [ref=e87]:
+              - link "Apple Cinema 30\"" [ref=e88] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/image/cache/catalog/demo/canon_eos_5d_1-500x500.jpg
+                - img "Apple Cinema 30\"" [ref=e89]
+            - listitem [ref=e90]:
+              - link "Apple Cinema 30\"" [ref=e91] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/image/cache/catalog/demo/compaq_presario-500x500.jpg
+                - img "Apple Cinema 30\"" [ref=e92]
+            - listitem [ref=e93]:
+              - link "Apple Cinema 30\"" [ref=e94] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/image/cache/catalog/demo/hp_1-500x500.jpg
+                - img "Apple Cinema 30\"" [ref=e95]
+            - listitem [ref=e96]:
+              - link "Apple Cinema 30\"" [ref=e97] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/image/cache/catalog/demo/canon_logo-500x500.jpg
+                - img "Apple Cinema 30\"" [ref=e98]
+          - list [ref=e99]:
+            - listitem [ref=e100]:
+              - link "Description" [ref=e101]:
+                - /url: "#tab-description"
+            - listitem [ref=e102]:
+              - link "Specification" [ref=e103] [cursor=pointer]:
+                - /url: "#tab-specification"
+            - listitem [ref=e104]:
+              - link "Reviews (0)" [ref=e105] [cursor=pointer]:
+                - /url: "#tab-review"
+          - generic [ref=e106]:
+            - generic [ref=e107]:
+              - paragraph [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]: The 30-inch Apple Cinema HD Display delivers an amazing 2560 x 1600 pixel resolution. Designed specifically for the creative professional, this display provides more space for easier access to all the tools and palettes needed to edit, format and composite your work. Combine this display with a Mac Pro, MacBook Pro, or PowerMac G5 and there's no limit to what you can achieve.
+                  - generic [ref=e111]: The Cinema HD features an active-matrix liquid crystal display that produces flicker-free images that deliver twice the brightness, twice the sharpness and twice the contrast ratio of a typical CRT display. Unlike other flat panels, it's designed with a pure digital interface to deliver distortion-free images that never need adjusting. With over 4 million digital pixels, the display is uniquely suited for scientific and technical applications such as visualizing molecular structures or analyzing geological data.
+                  - generic [ref=e112]: "Offering accurate, brilliant color performance, the Cinema HD delivers up to 16.7 million colors across a wide gamut allowing you to see subtle nuances between colors from soft pastels to rich jewel tones. A wide viewing angle ensures uniform color from edge to edge. Apple's ColorSync technology allows you to create custom profiles to maintain consistent color onscreen and in print. The result: You can confidently use this display in all your color-critical applications."
+                  - generic [ref=e113]: Housed in a new aluminum design, the display has a very thin bezel that enhances visual accuracy. Each display features two FireWire 400 ports and two USB 2.0 ports, making attachment of desktop peripherals, such as iSight, iPod, digital and still cameras, hard drives, printers and scanners, even more accessible and convenient. Taking advantage of the much thinner and lighter footprint of an LCD, the new displays support the VESA (Video Electronics Standards Association) mounting interface standard. Customers with the optional Cinema Display VESA Mount Adapter kit gain the flexibility to mount their display in locations most appropriate for their work environment.
+                  - generic [ref=e114]: The Cinema HD features a single cable design with elegant breakout for the USB 2.0, FireWire 400 and a pure digital connection using the industry standard Digital Video Interface (DVI) interface. The DVI connection allows for a direct pure-digital connection.
+              - heading "Features:" [level=3] [ref=e115]
+              - paragraph [ref=e116]: Unrivaled display performance
+              - list [ref=e117]:
+                - listitem [ref=e118]: 30-inch (viewable) active-matrix liquid crystal display provides breathtaking image quality and vivid, richly saturated color.
+                - listitem [ref=e119]: Support for 2560-by-1600 pixel resolution for display of high definition still and video imagery.
+                - listitem [ref=e120]: Wide-format design for simultaneous display of two full pages of text and graphics.
+                - listitem [ref=e121]: Industry standard DVI connector for direct attachment to Mac- and Windows-based desktops and notebooks
+                - listitem [ref=e122]: Incredibly wide (170 degree) horizontal and vertical viewing angle for maximum visibility and color performance.
+                - listitem [ref=e123]: Lightning-fast pixel response for full-motion digital video playback.
+                - listitem [ref=e124]: Support for 16.7 million saturated colors, for use in all graphics-intensive applications.
+              - paragraph [ref=e125]: Simple setup and operation
+              - list [ref=e126]:
+                - listitem [ref=e127]: Single cable with elegant breakout for connection to DVI, USB and FireWire ports
+                - listitem [ref=e128]: Built-in two-port USB 2.0 hub for easy connection of desktop peripheral devices.
+                - listitem [ref=e129]: Two FireWire 400 ports to support iSight and other desktop peripherals
+              - paragraph [ref=e130]: Sleek, elegant design
+              - list [ref=e131]:
+                - listitem [ref=e132]: Huge virtual workspace, very small footprint.
+                - listitem [ref=e133]: Narrow Bezel design to minimize visual impact of using dual displays
+                - listitem [ref=e134]: Unique hinge design for effortless adjustment
+                - listitem [ref=e135]: Support for VESA mounting solutions (Apple Cinema Display VESA Mount Adapter sold separately)
+              - heading "Technical specifications" [level=3] [ref=e136]
+              - paragraph [ref=e137]: Screen size (diagonal viewable image size)
+              - list [ref=e138]:
+                - listitem [ref=e139]: "Apple Cinema HD Display: 30 inches (29.7-inch viewable)"
+              - paragraph [ref=e140]: Screen type
+              - list [ref=e141]:
+                - listitem [ref=e142]: Thin film transistor (TFT) active-matrix liquid crystal display (AMLCD)
+              - paragraph [ref=e143]: Resolutions
+              - list [ref=e144]:
+                - listitem [ref=e145]: 2560 x 1600 pixels (optimum resolution)
+                - listitem [ref=e146]: 2048 x 1280
+                - listitem [ref=e147]: 1920 x 1200
+                - listitem [ref=e148]: 1280 x 800
+                - listitem [ref=e149]: 1024 x 640
+              - paragraph [ref=e150]: Display colors (maximum)
+              - list [ref=e151]:
+                - listitem [ref=e152]: 16.7 million
+              - paragraph [ref=e153]: Viewing angle (typical)
+              - list [ref=e154]:
+                - listitem [ref=e155]: 170° horizontal; 170° vertical
+              - paragraph [ref=e156]: Brightness (typical)
+              - list [ref=e157]:
+                - listitem [ref=e158]: "30-inch Cinema HD Display: 400 cd/m2"
+              - paragraph [ref=e159]: Contrast ratio (typical)
+              - list [ref=e160]:
+                - listitem [ref=e161]: 700:1
+              - paragraph [ref=e162]: Response time (typical)
+              - list [ref=e163]:
+                - listitem [ref=e164]: 16 ms
+              - paragraph [ref=e165]: Pixel pitch
+              - list [ref=e166]:
+                - listitem [ref=e167]: "30-inch Cinema HD Display: 0.250 mm"
+              - paragraph [ref=e168]: Screen treatment
+              - list [ref=e169]:
+                - listitem [ref=e170]: Antiglare hardcoat
+              - paragraph [ref=e171]: User controls (hardware and software)
+              - list [ref=e172]:
+                - listitem [ref=e173]: Display Power,
+                - listitem [ref=e174]: System sleep, wake
+                - listitem [ref=e175]: Brightness
+                - listitem [ref=e176]: Monitor tilt
+              - paragraph [ref=e177]:
+                - text: Connectors and cables
+                - text: Cable
+              - list [ref=e178]:
+                - listitem [ref=e179]: DVI (Digital Visual Interface)
+                - listitem [ref=e180]: FireWire 400
+                - listitem [ref=e181]: USB 2.0
+                - listitem [ref=e182]: DC power (24 V)
+              - paragraph [ref=e183]: Connectors
+              - list [ref=e184]:
+                - listitem [ref=e185]: Two-port, self-powered USB 2.0 hub
+                - listitem [ref=e186]: Two FireWire 400 ports
+                - listitem [ref=e187]: Kensington security port
+              - paragraph [ref=e188]:
+                - text: VESA mount adapter
+                - text: Requires optional Cinema Display VESA Mount Adapter (M9649G/A)
+              - list [ref=e189]:
+                - listitem [ref=e190]: Compatible with VESA FDMI (MIS-D, 100, C) compliant mounting solutions
+              - paragraph [ref=e191]: Electrical requirements
+              - list [ref=e192]:
+                - listitem [ref=e193]: "Input voltage: 100-240 VAC 50-60Hz"
+                - listitem [ref=e194]: "Maximum power when operating: 150W"
+                - listitem [ref=e195]: "Energy saver mode: 3W or less"
+              - paragraph [ref=e196]: Environmental requirements
+              - list [ref=e197]:
+                - listitem [ref=e198]: "Operating temperature: 50° to 95° F (10° to 35° C)"
+                - listitem [ref=e199]: "Storage temperature: -40° to 116° F (-40° to 47° C)"
+                - listitem [ref=e200]: "Operating humidity: 20% to 80% noncondensing"
+                - listitem [ref=e201]: "Maximum operating altitude: 10,000 feet"
+              - paragraph [ref=e202]: Agency approvals
+              - list [ref=e203]:
+                - listitem [ref=e204]: FCC Part 15 Class B
+                - listitem [ref=e205]: EN55022 Class B
+                - listitem [ref=e206]: EN55024
+                - listitem [ref=e207]: VCCI Class B
+                - listitem [ref=e208]: AS/NZS 3548 Class B
+                - listitem [ref=e209]: CNS 13438 Class B
+                - listitem [ref=e210]: ICES-003 Class B
+                - listitem [ref=e211]: ISO 13406 part 2
+                - listitem [ref=e212]: MPR II
+                - listitem [ref=e213]: IEC 60950
+                - listitem [ref=e214]: UL 60950
+                - listitem [ref=e215]: CSA 60950
+                - listitem [ref=e216]: EN60950
+                - listitem [ref=e217]: ENERGY STAR
+                - listitem [ref=e218]: TCO '03
+              - paragraph [ref=e219]:
+                - text: Size and weight
+                - text: 30-inch Apple Cinema HD Display
+              - list [ref=e220]:
+                - listitem [ref=e221]: "Height: 21.3 inches (54.3 cm)"
+                - listitem [ref=e222]: "Width: 27.2 inches (68.8 cm)"
+                - listitem [ref=e223]: "Depth: 8.46 inches (21.5 cm)"
+                - listitem [ref=e224]: "Weight: 27.5 pounds (12.5 kg)"
+              - paragraph [ref=e225]: System Requirements
+              - list [ref=e226]:
+                - listitem [ref=e227]: Mac Pro, all graphic options
+                - listitem [ref=e228]: MacBook Pro
+                - listitem [ref=e229]: Power Mac G5 (PCI-X) with ATI Radeon 9650 or better or NVIDIA GeForce 6800 GT DDL or better
+                - listitem [ref=e230]: Power Mac G5 (PCI Express), all graphics options
+                - listitem [ref=e231]: PowerBook G4 with dual-link DVI support
+                - listitem [ref=e232]: Windows PC and graphics card that supports DVI ports with dual-link digital bandwidth and VESA DDC standard for plug-and-play setup
+            - text: "* * *"
+        - generic [ref=e233]:
+          - generic [ref=e234]:
+            - button "" [ref=e235] [cursor=pointer]:
+              - generic [ref=e236]: 
+            - button "" [ref=e237] [cursor=pointer]:
+              - generic [ref=e238]: 
+          - heading "Apple Cinema 30\"" [level=1] [ref=e239]
+          - list [ref=e240]:
+            - listitem [ref=e241]:
+              - text: "Brand:"
+              - link "Apple" [ref=e242] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/manufacturer/info&manufacturer_id=8
+            - listitem [ref=e243]: "Product Code: Product 15"
+            - listitem [ref=e244]: "Reward Points: 100"
+            - listitem [ref=e245]: "Availability: In Stock"
+          - list [ref=e246]:
+            - listitem [ref=e247]: $122.00
+            - listitem [ref=e248]:
+              - heading "$110.00" [level=2] [ref=e249]
+            - listitem [ref=e250]: "Ex Tax: $90.00"
+            - listitem [ref=e251]: "Price in reward points: 400"
+            - listitem [ref=e252]:
+              - separator [ref=e253]
+            - listitem [ref=e254]: 10 or more $107.60
+            - listitem [ref=e255]: 20 or more $94.40
+            - listitem [ref=e256]: 30 or more $81.20
+          - generic [ref=e257]:
+            - separator [ref=e258]
+            - heading "Available Options" [level=3] [ref=e259]
+            - generic [ref=e261]: "* Radio"
+            - generic [ref=e262]:
+              - generic [ref=e263]: "* Checkbox"
+              - generic [ref=e264]:
+                - generic [ref=e266] [cursor=pointer]:
+                  - checkbox "Checkbox 3 (+$36.00)" [checked] [ref=e267]
+                  - text: Checkbox 3 (+$36.00)
+                - generic [ref=e269] [cursor=pointer]:
+                  - checkbox "Checkbox 4 (+$48.00)" [ref=e270]
+                  - text: Checkbox 4 (+$48.00)
+            - generic [ref=e271]:
+              - generic [ref=e272]: "* Text"
+              - textbox "* Text" [ref=e273]:
+                - /placeholder: Text
+                - text: Mounika
+            - generic [ref=e274]:
+              - generic [ref=e275]: "* Select"
+              - combobox "* Select" [ref=e276]:
+                - option "--- Please Select ---"
+                - option "Blue (+$3.60)" [selected]
+                - option "Green (+$1.20)"
+                - option "Yellow (+$2.40)"
+            - generic [ref=e277]:
+              - generic [ref=e278]: "* Textarea"
+              - textbox "* Textarea" [ref=e279]:
+                - /placeholder: Textarea
+                - text: Mounika Typescript
+            - generic [ref=e280]:
+              - generic [ref=e281]: "* File"
+              - button " Upload File" [active] [ref=e282] [cursor=pointer]:
+                - generic [ref=e283]: 
+                - text: Upload File
+            - generic [ref=e284]:
+              - generic [ref=e285]: "* Date"
+              - generic [ref=e286]:
+                - textbox "* Date" [ref=e287]: 2011-02-20
+                - button "" [ref=e289] [cursor=pointer]:
+                  - generic [ref=e290]: 
+            - generic [ref=e291]:
+              - generic [ref=e292]: "* Time"
+              - generic [ref=e293]:
+                - textbox "* Time" [ref=e294]: 22:25
+                - button "" [ref=e296] [cursor=pointer]:
+                  - generic [ref=e297]: 
+            - generic [ref=e298]:
+              - generic [ref=e299]: "* Date & Time"
+              - generic [ref=e300]:
+                - textbox "* Date & Time" [ref=e301]: 2011-02-20 22:25
+                - button "" [ref=e303] [cursor=pointer]:
+                  - generic [ref=e304]: 
+            - generic [ref=e305]:
+              - generic [ref=e306]: Qty
+              - textbox "Qty" [ref=e307]: "2"
+              - button "Add to Cart" [ref=e308] [cursor=pointer]
+            - generic [ref=e309]:
+              - generic [ref=e310]: 
+              - text: This product has a minimum quantity of 2
+          - paragraph [ref=e312]:
+            - generic [ref=e314]: 
+            - generic [ref=e316]: 
+            - generic [ref=e318]: 
+            - generic [ref=e320]: 
+            - generic [ref=e322]: 
+            - link "0 reviews" [ref=e323] [cursor=pointer]:
+              - /url: ""
+            - text: /
+            - link "Write a review" [ref=e324] [cursor=pointer]:
+              - /url: ""
+      - heading "Related Products" [level=3] [ref=e325]
+      - generic [ref=e326]:
+        - generic [ref=e328]:
+          - link "iPhone" [ref=e330] [cursor=pointer]:
+            - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/product&product_id=40
+            - img "iPhone" [ref=e331]
+          - generic [ref=e332]:
+            - heading "iPhone" [level=4] [ref=e333]:
+              - link "iPhone" [ref=e334] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/product&product_id=40
+            - paragraph [ref=e335]: iPhone is a revolutionary new mobile phone that allows you to make a call by simply tapping a name o..
+            - paragraph [ref=e336]:
+              - text: $123.20
+              - generic [ref=e337]: "Ex Tax: $101.00"
+          - generic [ref=e338]:
+            - button "Add to Cart " [ref=e339] [cursor=pointer]:
+              - text: Add to Cart
+              - generic [ref=e340]: 
+            - button "" [ref=e341] [cursor=pointer]:
+              - generic [ref=e342]: 
+            - button "" [ref=e343] [cursor=pointer]:
+              - generic [ref=e344]: 
+        - generic [ref=e346]:
+          - link "iMac" [ref=e348] [cursor=pointer]:
+            - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/product&product_id=41
+            - img "iMac" [ref=e349]
+          - generic [ref=e350]:
+            - heading "iMac" [level=4] [ref=e351]:
+              - link "iMac" [ref=e352] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/product&product_id=41
+            - paragraph [ref=e353]: Just when you thought iMac had everything, now there´s even more. More powerful Intel Core 2 Duo pro..
+            - paragraph [ref=e354]:
+              - text: $122.00
+              - generic [ref=e355]: "Ex Tax: $100.00"
+          - generic [ref=e356]:
+            - button "Add to Cart " [ref=e357] [cursor=pointer]:
+              - text: Add to Cart
+              - generic [ref=e358]: 
+            - button "" [ref=e359] [cursor=pointer]:
+              - generic [ref=e360]: 
+            - button "" [ref=e361] [cursor=pointer]:
+              - generic [ref=e362]: 
+  - text:         
+  - contentinfo [ref=e363]:
+    - generic [ref=e364]:
+      - generic [ref=e365]:
+        - generic [ref=e366]:
+          - heading "Information" [level=5] [ref=e367]
+          - list [ref=e368]:
+            - listitem [ref=e369]:
+              - link "About Us" [ref=e370] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=information/information&information_id=4
+            - listitem [ref=e371]:
+              - link "Delivery Information" [ref=e372] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=information/information&information_id=6
+            - listitem [ref=e373]:
+              - link "Privacy Policy" [ref=e374] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=information/information&information_id=3
+            - listitem [ref=e375]:
+              - link "Terms & Conditions" [ref=e376] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=information/information&information_id=5
+        - generic [ref=e377]:
+          - heading "Customer Service" [level=5] [ref=e378]
+          - list [ref=e379]:
+            - listitem [ref=e380]:
+              - link "Contact Us" [ref=e381] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=information/contact
+            - listitem [ref=e382]:
+              - link "Returns" [ref=e383] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/return/add
+            - listitem [ref=e384]:
+              - link "Site Map" [ref=e385] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=information/sitemap
+        - generic [ref=e386]:
+          - heading "Extras" [level=5] [ref=e387]
+          - list [ref=e388]:
+            - listitem [ref=e389]:
+              - link "Brands" [ref=e390] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/manufacturer
+            - listitem [ref=e391]:
+              - link "Gift Certificates" [ref=e392] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/voucher
+            - listitem [ref=e393]:
+              - link "Affiliate" [ref=e394] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=affiliate/login
+            - listitem [ref=e395]:
+              - link "Specials" [ref=e396] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=product/special
+        - generic [ref=e397]:
+          - heading "My Account" [level=5] [ref=e398]
+          - list [ref=e399]:
+            - listitem [ref=e400]:
+              - link "My Account" [ref=e401] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/account
+            - listitem [ref=e402]:
+              - link "Order History" [ref=e403] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/order
+            - listitem [ref=e404]:
+              - link "Wish List" [ref=e405] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/wishlist
+            - listitem [ref=e406]:
+              - link "Newsletter" [ref=e407] [cursor=pointer]:
+                - /url: https://naveenautomationlabs.com/opencart/index.php?route=account/newsletter
+      - separator [ref=e408]
+      - paragraph [ref=e409]:
+        - text: Powered By
+        - link "OpenCart" [ref=e410] [cursor=pointer]:
+          - /url: http://www.opencart.com
+        - text: naveenopencart © 2026
+```

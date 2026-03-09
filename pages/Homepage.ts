@@ -10,6 +10,7 @@ export class Home {
     private readonly searchclick: Locator
     private readonly productstitle : Locator;
     private readonly login :Locator;
+    private readonly components:Locator;
 
 
     //Constructors
@@ -23,6 +24,7 @@ export class Home {
         this.searchclick = page.locator('.btn.btn-default.btn-lg');
         this.productstitle = page.locator("h4 a")
         this.login = page.locator('ul.dropdown-menu.dropdown-menu-right>li').nth(1)
+        this.components = page.getByRole('link', { name: 'Components' });
     }
 
     //Async methods
@@ -66,5 +68,10 @@ export class Home {
     async loginlink():Promise<void>{
         await this.login.click();
     }
-
+    
+    //click on components link
+    async componentstab():Promise<void>
+    {
+      await this.components.hover();
+    }
 }
